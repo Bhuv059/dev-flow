@@ -3,7 +3,7 @@ import Navbar from "@/components/navigation/navbar";
 
 const RootLayout = ({children}:{children: ReactNode}) => {
 	return (
-		<main>
+		<main >
 			<Navbar />
 			{children}
 		</main>
